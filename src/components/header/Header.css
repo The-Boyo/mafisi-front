@@ -1,0 +1,42 @@
+.nav {
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr 6fr 2fr;
+	top: 20px;
+	padding: 0.5em 0.3em;
+}
+
+.mafisi_header-logo {
+	color: aqua;
+}
+
+.nav_elements {
+	display: grid;
+	grid-template-columns: repeat(6, 2fr);
+	place-items: center;
+	box-shadow: 1px 1px 1px 1px;
+	border-radius: 7px;
+	height: 50px;
+}
+
+.nav_elements > h5 {
+	margin-right: 0.3em;
+}
+
+.nav_elements > h5:hover {
+	font-size: 0.9em;
+}
+
+.auth_ui {
+	justify-self: end;
+}
+
+.sign_in {
+	height: 1.5em;
+	width: 4em;
+	background: aqua;
+	/* background: var(--the-white); */
+	border-radius: 5px;
+	display: grid;
+	place-items: center;
+}
