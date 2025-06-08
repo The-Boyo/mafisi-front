@@ -2,12 +2,17 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+}
+
+h3 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .main {
@@ -82,6 +87,15 @@ a {
 	margin-top: 0.5em;
 	width: 60%;
 	min-width: 150px;
+	justify-self: center;
+}
+
+.who-are-we {
+	justify-self: center;
+	display: grid;
+}
+
+.who-are-we > h3 {
 	justify-self: center;
 }
 

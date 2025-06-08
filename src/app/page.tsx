@@ -9,7 +9,7 @@ export default function Mafisi() {
 				<h1 className="motto">#SuraYaMbuziKaziYaPunda</h1>
 				<div className="mission-vision">
 					<div className="mission">
-						<h3>Our Mission</h3>
+						<h3 className="mission-title">Our Mission</h3>
 						<p className="mission-des">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim
 							consectetur quidem exercitationem eveniet quas eaque laboriosam
@@ -18,7 +18,7 @@ export default function Mafisi() {
 						</p>
 					</div>
 					<div className="vision">
-						<h3>Our Vision</h3>
+						<h3 className="vision-title">Our Vision</h3>
 						<p>
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
 							et fuga nostrum animi dolores perspiciatis ipsa alias quaerat
@@ -29,7 +29,7 @@ export default function Mafisi() {
 					</div>
 				</div>
 				<div className="who-are-we">
-					<h3>Who Are We</h3>
+					<h3 className="who-are-we-title">Who Are We</h3>
 					<p className="who-are-we-des">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
 						ut sed, voluptatum perferendis reiciendis sapiente quaerat sunt
