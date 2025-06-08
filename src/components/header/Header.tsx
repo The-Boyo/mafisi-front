@@ -1,8 +1,15 @@
+"use client";
+
 import Link from "next/link";
 
 import "./Header.css";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+	const pathName = usePathname();
+
+	console.log(pathName);
+
 	return (
 		<header id="header">
 			<div className="nav">
