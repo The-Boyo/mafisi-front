@@ -11,7 +11,7 @@ export default function Header() {
 	console.log(pathName);
 
 	return (
-		<header id="header">
+		<header id="header" className={pathName === "/" ? "pic-header" : ""}>
 			<div className="nav">
 				<Link href={"#"}>
 					<div
@@ -41,7 +41,7 @@ export default function Header() {
 						<Link href={"/wadau"}>Fans</Link>
 					</h5>
 					<h5>
-						<Link href={"/wadau"}>About</Link>
+						<Link href={"/wadau"}>Office</Link>
 					</h5>
 				</div>
 				<div className="auth_ui">
