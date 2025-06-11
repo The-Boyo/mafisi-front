@@ -15,32 +15,20 @@ h3 {
 }
 
 .main {
-	/* position: relative; */
+	position: absolute;
 	min-height: 100vh;
+	height: max-content;
 }
 
 #header {
 	position: relative;
-	/* height: 120px; */
+	height: 120px;
 	background: var(--the-red);
 	padding: 0.5em 0.3em;
 	display: grid;
 }
 
-/* #header::before {
-	background-image: url("../../public/mafisi-squad.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	content: "";
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: absolute;
-	opacity: 0.2;
-} */
-
-.pic-header {
+/* .pic-header {
 	height: 350px;
 }
 
@@ -55,18 +43,18 @@ h3 {
 	right: 0;
 	position: absolute;
 	opacity: 0.2;
-}
+} */
 
 .content {
-	/* min-height: 300px; */
-	/* border: 1px solid red; */
+	/* min-height: 300px;
+	border: 1px solid red; */
 	position: relative;
 	display: grid;
 }
 
 .motto {
-	position: absolute;
-	top: -240px;
+	/* position: relative;
+	top: -240px; */
 	justify-self: center;
 	font-style: italic;
 	text-shadow: 2px 2px 1px;
@@ -91,10 +79,10 @@ h3 {
 	}
 }
 
-.mission-vision {
-	position: absolute;
-	top: -197px;
-}
+/* .mission-vision {
+	position: relative;
+	top: -230px;
+} */
 
 .mission,
 .vision {
@@ -113,6 +101,7 @@ h3 {
 .who-are-we {
 	justify-self: center;
 	display: grid;
+	top: -170px;
 }
 
 .who-are-we > h3 {
@@ -120,9 +109,11 @@ h3 {
 }
 
 #footer {
-	height: 300px;
+	min-height: 250px;
 	width: 100%;
 	background: var(--the-red);
+	bottom: 0;
+	position: absolute;
 }
 
 :root {
