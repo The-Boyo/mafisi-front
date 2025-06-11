@@ -15,7 +15,7 @@ h3 {
 }
 
 .main {
-	position: relative;
+	/* position: relative; */
 	min-height: 100vh;
 }
 
@@ -60,14 +60,13 @@ h3 {
 .content {
 	/* min-height: 300px; */
 	/* border: 1px solid red; */
-	position: absolute;
-	top: 120px;
+	position: relative;
 	display: grid;
 }
 
 .motto {
-	/* position: absolute;
-	top: -210px; */
+	position: absolute;
+	top: -240px;
 	justify-self: center;
 	font-style: italic;
 	text-shadow: 2px 2px 1px;
@@ -92,18 +91,22 @@ h3 {
 	}
 }
 
-/* .mission-vision {
+.mission-vision {
 	position: absolute;
-	top: -155px;
-} */
+	top: -197px;
+}
 
 .mission,
 .vision {
 	display: grid;
-	place-items: center;
 	margin-top: 0.5em;
-	width: 60%;
 	min-width: 150px;
+	justify-self: center;
+	padding: 0 0.3em;
+}
+
+.mission > h3,
+.vision > h3 {
 	justify-self: center;
 }
 
