@@ -1,7 +1,9 @@
 export default function Footer() {
 	return (
 		<footer id="footer">
-			<h1>Footer</h1>
+			<p>
+				All rights reserved &#169; Mafisi {new Date(Date.now()).getFullYear()}
+			</p>
 		</footer>
 	);
 }

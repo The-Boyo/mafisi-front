@@ -114,6 +114,8 @@ h3 {
 	background: var(--the-red);
 	bottom: 0;
 	position: absolute;
+	display: grid;
+	place-items: center;
 }
 
 :root {
