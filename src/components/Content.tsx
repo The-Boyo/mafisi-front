@@ -12,7 +12,7 @@ export default function Content() {
 
 		document.body.addEventListener("scroll", handleScroll);
 
-		console.log(document.body.clientTop);
+		console.log(document.body);
 
 		return () => document.body.removeEventListener("scroll", handleScroll);
 	});
